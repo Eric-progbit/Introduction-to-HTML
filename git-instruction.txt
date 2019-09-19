@@ -1,0 +1,13 @@
+1. Check if git is installed
+    $ git --version
+2. Identify yourself to git: username & email
+    $ git config --global user.name 'Eric-progbit'
+    $ git config --global user.email 'ericmwangiprof@gmail.com'
+3. Create a git folder that will store your code to upload.
+ Use the below command to create the folder(repository)
+    $ git init
+4. Add files and folders in the staging area
+    $ git add
+    $ ls (which is used to see a list of the files you have)
+    $ git status (used to see which files have been put in staging area which have not/still in working directory)
+    (use git rm --cached <file>.." to unstage)
